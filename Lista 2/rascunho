@@ -1,0 +1,13 @@
+int n, produto = 1;
+
+for i = 0 ; i < n ; i++ {
+   if(n%2 != 0){                 verifica se o numero é impar
+      produto = produto * i;     produto é multiplicado por i
+   }
+}
+
+
+caso base:
+   fatorial = 1
+   retorne 1;
+
